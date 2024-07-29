@@ -19,6 +19,7 @@ public class Person {
     static void info(String name, String job, String email, String phoneNumber, double salary, int age) {
         System.out.println("Name: " + name + "; Job: " + job + "; Email: " + email + "; Phone Numner: " + phoneNumber + "; Salary: " + salary + "; Age: " + age);
     }
+
     Person[] persArray = new Person[5];
     {
         persArray[0] = new Person("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892312312", 30000, 30);
@@ -27,6 +28,7 @@ public class Person {
         persArray[3] = new Person("Romanov Roman", "Project Manager", "romanov@mailbox.com", "892312315", 30000, 33);
         persArray[4] = new Person("Novikov Ilya", "Systems Analyst", "novikov@mailbox.com", "892312316", 30000, 34);
     }
+
     public class Park {
         public class Attraction {
             private String name;
