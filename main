@@ -4,7 +4,7 @@ public class Person {
     }
     String name;
     String job;
-     String email;
+    String email;
     String phoneNumber;
     double salary;
     int age;
@@ -20,8 +20,7 @@ public class Person {
         System.out.println("Name: " + name + "; Job: " + job + "; Email: " + email + "; Phone Numner: " + phoneNumber + "; Salary: " + salary + "; Age: " + age);
     }
 
-    Person[] persArray = new Person[5];
-    {
+    Person[] persArray = new Person[5]; {
         persArray[0] = new Person("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892312312", 30000, 30);
         persArray[1] = new Person("Petrov Petr", "Tester", "petrov@mailbox.com", "892312313", 30000, 31);
         persArray[2] = new Person("Maksimov Maksim", "Director", "maksimov@mailbox.com", "892312314", 40000, 32);
@@ -31,9 +30,9 @@ public class Person {
 
     public class Park {
         public class Attraction {
-            private String name;
-            private String workTime;
-            private double price;
+            String name;
+            String workTime;
+            double price;
         }
     }
 }
